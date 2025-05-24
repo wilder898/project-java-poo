@@ -8,6 +8,38 @@ public class SistemaFrenos {
 
     public SistemaFrenos() {}
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getDiscos() {
+        return discos;
+    }
+
+    public void setDiscos(String discos) {
+        this.discos = discos;
+    }
+
+    public String getABS() {
+        return ABS;
+    }
+
+    public void setABS(String aBS) {
+        ABS = aBS;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
     public SistemaFrenos(String tipo, String discos, String ABS, String estado) {
         this.tipo = tipo;
         this.discos = discos;

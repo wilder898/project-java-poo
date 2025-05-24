@@ -8,6 +8,38 @@ public class Transmision {
 
     public Transmision() {}
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public int getNumMarchas() {
+        return numMarchas;
+    }
+
+    public void setNumMarchas(int numMarchas) {
+        this.numMarchas = numMarchas;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
     public Transmision(String tipo, int numMarchas, String marca, String modelo) {
         this.tipo = tipo;
         this.numMarchas = numMarchas;

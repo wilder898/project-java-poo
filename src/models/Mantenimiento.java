@@ -6,6 +6,23 @@ public class Mantenimiento {
 
     public Mantenimiento () {}
 
+    public String getFechaMantenimiento(){
+        return fechaMantenimiento;
+    }
+
+    public String getProxMantenimientio() {
+        return proxMantenimientio;
+    }
+
+    public void setFechaMantenimiento(String fechaMantenimiento) {
+        this.fechaMantenimiento = fechaMantenimiento;
+    }
+
+    public void setProxMantenimientio(String proxMantenimientio) {
+        this.proxMantenimientio = proxMantenimientio;
+    }
+
+
     public Mantenimiento(String fechaMantenimiento, String proxMantenimientio) {
         this.fechaMantenimiento = fechaMantenimiento;
         this.proxMantenimientio = proxMantenimientio;

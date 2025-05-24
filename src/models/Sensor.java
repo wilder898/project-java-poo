@@ -7,6 +7,42 @@ public class Sensor {
 
     public Sensor() {}
 
+    public int getVelocidad() {
+        return velocidad;
+    }
+
+
+
+    public void setVelocidad(int velocidad) {
+        this.velocidad = velocidad;
+    }
+
+
+
+    public int getTemperaturaSensor() {
+        return temperaturaSensor;
+    }
+
+
+
+    public void setTemperaturaSensor(int temperaturaSensor) {
+        this.temperaturaSensor = temperaturaSensor;
+    }
+
+
+
+    public int getPresion() {
+        return presion;
+    }
+
+
+
+    public void setPresion(int presion) {
+        this.presion = presion;
+    }
+
+
+
     public Sensor(int velocidad, int temperaturaSensor, int presion) {
         this.velocidad = velocidad;
         this.temperaturaSensor = temperaturaSensor;
